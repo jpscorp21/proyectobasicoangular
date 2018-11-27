@@ -1,26 +1,34 @@
+<<<<<<< HEAD
 # aProyectoBasico
+=======
+# Proyecto Básico con Angular 7 
+>>>>>>> 25266fca4c980549f4e12b316f293e8cae4cd56a
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
+El proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
 
+<<<<<<< HEAD
 ## Development servera
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+=======
+## Descripción
 
-## Code scaffolding
+El proyecto es una modificación del repositorio ngx-admin en el siguiente link https://github.com/akveo/ngx-admin
+Es un proyecto basado en la necesidad de tener una base para emprender un proyecto. Obtener facilidades
+como la implementacion de una interfaz sencilla, bien cuidada y profesional. La estructura es el resultado de la
+búsqueda de buenas prácticas, con una organización que permite la escalabilidad.
+>>>>>>> 25266fca4c980549f4e12b316f293e8cae4cd56a
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Características
 
-## Build
+- El proyecto utiliza Angular 7
+- Utiliza el framework Nebular que facilita el desarrollo de UI
+- Usa el framework bootstrap 4 para enriquecer la UI
+- Incorpora el uso SCSS
+- Contiene un conjunto de iconos de diferentes fuentes(Ionic, Font Awesome, Nebular Icons)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Como usar
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- Tener instalado node a la versión más actualizada
+- Clonar o descargar el zip del proyecto
+- Ejecutar el comando `npm install` en la raiz del proyecto para instalar las dependencias del proyecto
+- Finalmente ejecutar `ng serve -o` para ejecutar el proyecto, se ejecutará en el navegador en el puerto http://localhost:4200
