@@ -60,9 +60,7 @@ import {
 } from './pipes';
 import {
   OneColumnLayoutComponent,
-  SampleLayoutComponent,
-  ThreeColumnsLayoutComponent,
-  TwoColumnsLayoutComponent,
+  SampleLayoutComponent,  
 } from './layouts';
 import { DEFAULT_THEME } from './styles/theme.default';
 import { COSMIC_THEME } from './styles/theme.cosmic';
@@ -116,9 +114,7 @@ const COMPONENTS = [
   SearchInputComponent,
   ThemeSettingsComponent,
   OneColumnLayoutComponent,
-  SampleLayoutComponent,
-  ThreeColumnsLayoutComponent,
-  TwoColumnsLayoutComponent,
+  SampleLayoutComponent,  
 ];
 
 const ENTRY_COMPONENTS = [

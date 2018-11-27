@@ -9,6 +9,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NbThemeModule, NbLayoutModule } from '@nebular/theme';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,8 @@ import { AppComponent } from './app.component';
     NgbModule.forRoot(),
     ThemeModule.forRoot(),
     CoreModule.forRoot(),
+    NbThemeModule.forRoot({ name: 'corporate' }),
+    NbLayoutModule,
 
   ],
   providers: [],

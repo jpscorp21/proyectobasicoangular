@@ -3,6 +3,11 @@
 @import '~@nebular/theme/styles/global/breakpoints';
 
 @include nb-install-component() {
+  
+  .logo {
+    cursor: pointer;
+  }
+
   display: flex;
   justify-content: space-between;
   width: 100%;

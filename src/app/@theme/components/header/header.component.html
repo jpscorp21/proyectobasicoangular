@@ -2,13 +2,13 @@
      [class.left]="position === 'normal'"
      [class.right]="position === 'inverse'">
   <div class="logo-containter">
-    <a (click)="toggleSidebar()" href="#" class="navigation"><i class="nb-menu"></i></a>
-    <div class="logo" (click)="goToHome()">ngx-<span>admin</span></div>
+    <a (click)="toggleSidebar()" class="navigation"><i class="nb-menu"></i></a>
+    <div class="logo" routerLink="/pages/" (click)="goToHome()">Sistema</div>
   </div>
-  <ngx-theme-switcher></ngx-theme-switcher>
+  <!-- <ngx-theme-switcher></ngx-theme-switcher> -->
 </div>
 
-<div class="header-container">
+<!-- <div class="header-container">
   <ngx-layout-direction-switcher></ngx-layout-direction-switcher>
   <nb-actions
     size="medium"
@@ -24,4 +24,4 @@
       <nb-search type="rotate-layout" (click)="startSearch()"></nb-search>
     </nb-action>
   </nb-actions>
-</div>
+</div> -->
