@@ -12,14 +12,41 @@ export const MENU_ITEMS: NbMenuItem[] = [
     home: true 
   },
   {
-    title: 'Formulario Básico',
+    title: 'Archivos',
     icon: 'nb-compose',
-    link: '/pages/formulario-basico',   
-    home: true 
+    children: [
+      {
+        title: 'Productos',
+        link: '/pages/productos',
+      },
+      {
+        title: 'Clientes',
+        link: '/pages/clientes',
+      }
+    ]
+  },
+  {
+    title: 'Movimientos',
+    icon: 'nb-star',
+    children: [
+      {
+        title: 'Compras',
+        link: '/pages/compras',
+      },
+      {
+        title: 'Ventas',
+        link: '/pages/ventas',
+      }
+    ]
+  },
+  {
+    title: 'Acerca de',
+    icon: 'nb-keypad',
+    link: '/pages/acercade',       
   },
   // {
   //   title: 'IoT Dashboard',
-  //   icon: 'nb-home',
+  //   iscon: 'nb-home',
   //   link: '/pages/iot-dashboard',
   // },
   // {
