@@ -8,8 +8,8 @@ export const MENU_ITEMS: NbMenuItem[] = [
   {
     title: 'Inicio',
     icon: 'nb-home',
-    link: '/pages/inicio',   
-    home: true 
+    link: '/pages/inicio',
+    home: true
   },
   {
     title: 'Archivos',
@@ -22,6 +22,10 @@ export const MENU_ITEMS: NbMenuItem[] = [
       {
         title: 'Clientes',
         link: '/pages/clientes',
+      },
+      {
+        title: 'Localidad',
+        link: '/pages/localidad',
       }
     ]
   },
@@ -42,7 +46,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
   {
     title: 'Acerca de',
     icon: 'nb-keypad',
-    link: '/pages/acercade',       
+    link: '/pages/acercade',
   },
   // {
   //   title: 'IoT Dashboard',

@@ -8,6 +8,11 @@ import { VentasListaComponent } from './ventas/ventas-lista/ventas-lista.compone
 import { ClientesListaComponent } from './clientes/clientes-lista/clientes-lista.component';
 import { ProductosListaComponent } from './productos/productos-lista/productos-lista.component';
 import { AcercadeComponent } from './acercade/acercade.component';
+import { ProductosFormComponent } from './productos/productos-form/productos-form.component';
+import { ClientesFormComponent } from './clientes/clientes-form/clientes-form.component';
+import { LocalidadListaComponent } from './localidad/localidad-lista/localidad-lista.component';
+import { VentasFormComponent } from './ventas/ventas-form/ventas-form.component';
+import { ComprasFormComponent } from './compras/compras-form/compras-form.component';
 
 const routes: Routes = [
     {
@@ -27,16 +32,36 @@ const routes: Routes = [
                 component: ComprasListaComponent
             },
             {
+                path: 'compras-form',
+                component: ComprasFormComponent
+            },
+            {
                 path: 'ventas',
                 component: VentasListaComponent
+            },
+            {
+                path: 'ventas-form',
+                component: VentasFormComponent
             },
             {
                 path: 'clientes',
                 component: ClientesListaComponent
             },
             {
+                path: 'clientes-form',
+                component: ClientesFormComponent
+            },
+            {
                 path: 'productos',
                 component: ProductosListaComponent
+            },
+            {
+                path: 'productos-form',
+                component: ProductosFormComponent
+            },
+            {
+                path: 'localidad',
+                component: LocalidadListaComponent
             },
             {
                 path: 'acercade',
@@ -44,7 +69,7 @@ const routes: Routes = [
             },
         ]
     }
-]
+];
 
 @NgModule({
     imports: [RouterModule.forChild(routes)],
